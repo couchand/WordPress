@@ -330,6 +330,10 @@ img.wp-post-image {
 	max-width: 100%;
 	height: auto; /* Make sure images with WordPress-added height and width attributes are scaled correctly */
 }
+img.header-image {
+	margin: 0;
+	border: none;
+}
 
 /* Make sure videos and embeds fit their containers */
 embed,
@@ -660,8 +664,8 @@ footer[role="contentinfo"] {
 	font-size: 12px;
 	font-size: 0.857142857rem;
 	line-height: 2;
-	max-width: 960px;
-	max-width: 68.571428571rem;
+	max-width: 900px;
+	/*max-width: 68.571428571rem;*/
 	margin-top: 24px;
 	margin-top: 1.714285714rem;
 	margin-left: auto;
@@ -722,6 +726,7 @@ footer[role="contentinfo"] a:hover {
 	color: #21759b;
 }
 article.sticky .featured-post {
+	display: none;/*
 	border-top: 4px double #ededed;
 	border-bottom: 4px double #ededed;
 	color: #757575;
@@ -730,7 +735,7 @@ article.sticky .featured-post {
 	line-height: 3.692307692;
 	margin-bottom: 24px;
 	margin-bottom: 1.714285714rem;
-	text-align: center;
+	text-align: center;*/
 }
 .entry-content,
 .entry-summary,
@@ -1445,8 +1450,8 @@ img#wpstats {
 	}
 	.site {
 		margin: 0 auto;
-		max-width: 960px;
-		max-width: 68.571428571rem;
+		max-width: 900px;
+		/*max-width: 68.571428571rem;*/
 		overflow: hidden;
 	}
 	.site-content {
